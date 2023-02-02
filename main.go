@@ -8,4 +8,7 @@ import (
 func main() {
 	str := strutil.ToUpper("Hello, world")
 	fmt.Println(str)
+
+	str = strutil.ToLower(str)
+	fmt.Println(str)
 }
